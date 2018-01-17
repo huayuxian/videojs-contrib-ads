@@ -225,7 +225,6 @@ export function restorePlayerSnapshot(player, snapshotObject) {
     restoreTracks();
     // the src didn't change and this wasn't a postroll
     // just resume playback at the current time.
-    videojs.log('play 2');
     player.play();
   }
 }
